@@ -176,9 +176,7 @@ We evaluate the following:
 
 ### Metrics:
 
-* **Exact Set Match**
-* **Component Match** (SELECT/WHERE/GROUP ORDER/etc.)
-* **Execution Accuracy**
+* **Execution Accuracy**: It measures the semantic correctness of a predicted SQL query by executing both the predicted and gold queries on the target database and comparing their returned results. A prediction is counted as correct if the two result sets match exactly, regardless of whether the SQL strings themselves differ syntactically.
 
 ---
 
